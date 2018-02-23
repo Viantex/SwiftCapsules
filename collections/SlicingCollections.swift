@@ -9,6 +9,6 @@ collection[...3]
 collection[..<5]
 // output: ["0", "01", "012", "0123", "01234"]
 
-// Getting the items wher smaller than 5 && start from 3th item
-collection[3..<5]
-
+// Getting the items which smaller than 6th item && start from 3th item
+collection[3..<6]
+// output: ["0123", "01234", "012345"]
